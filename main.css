@@ -1,0 +1,34 @@
+body {background-color: antiquewhite; }
+/* # is selection ID-NAME fmSaveAlbum same as .fmSaveAlbum   */
+/* "form" affects "input", "submit", "textarea" ect..*/
+
+/* apply this styling to a specific <form> with a certain ID */
+form#fmSaveAlbum{
+    background-color: aqua;
+    padding: 2em; /*Space Insdie the box 8*/
+    border-radius: 2em; /* em Units are based on the letter M of the current font */
+    margin: 2em; /* Space Outside the box*/
+
+}
+/* find a <form> with an ID, then a <label> inside*/
+
+form#fmSaveAlbum label{
+    float: left;
+    width: 7em;
+}
+
+/*form id="fmSaveAlbum> <input></form> 
+define multiple selectors at onece with a comma
+*/
+form#fmSaveAlbum input[type=text],
+form#fmSaveAlbum input[type=number],
+form#fmSaveAlbum textarea
+{
+    width: 250px;
+}
+
+form#fmSaveAlbum input[type=reset],
+form#fmSaveAlbum input[type=submit]{
+    margin-top: 2em;
+
+}
