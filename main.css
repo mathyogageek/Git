@@ -1,6 +1,8 @@
 body {background-color: antiquewhite; }
 /* # is selection ID-NAME fmSaveAlbum same as .fmSaveAlbum   */
 /* "form" affects "input", "submit", "textarea" ect..*/
+/* # is selection ID-NAME fmSaveAlbum same as .fmSaveAlbum   */
+/* "form" affects "input", "submit", "textarea" ect..*/
 
 /* apply this styling to a specific <form> with a certain ID */
 form#fmSaveAlbum{
